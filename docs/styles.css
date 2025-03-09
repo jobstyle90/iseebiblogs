@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+p{
+    font-family: "Arial",sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+.H_box{
+    width: 750px;
+    height: 100px;
+    background-color:rgb(220, 204, 194);
+    border-radius: 10px;
+    position: relative;
+    padding: 0px;
+    margin-top: 30px;
+    text-align: center;
+}
+.rectangle{
+    width: 900px;
+    height: 6500px;
+    background-color: rgb(234, 213, 207);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_A{
+    width: 800px;
+    height: 6400px;
+    background-color: white;
+    border-radius:  5px;
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.spec_box{
+    width: 750px;
+    height: 150px;
+    background-color:rgb(237, 237, 237);
+    border-radius: 0px;
+    position: relative;
+    padding: 0px;
+    margin-top: 30px;
+    text-align: center;
+    justify-items: center;
+}
+.suject_box{
+    width:600px;
+    height: 800px;
+    background-color: #dbdbdb;
+    border: 2px;
+    position: relative;
+    margin-top: 30px;
+    text-align: left;
+    padding-left: 20px;
+}
